@@ -29,9 +29,9 @@ on:
         default: '10'
         type: string
 
-  schedule:
-    - cron: '*/10 * * * *'
-    - cron: '*/5 * * * *'
+  # schedule:
+  #   - cron: '*/10 * * * *'
+  #   - cron: '*/5 * * * *'
 
 jobs:
   setup:
